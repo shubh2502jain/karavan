@@ -194,13 +194,78 @@
 <div class="jumbotron col-md-6">
   <div class="container" >
   <h1>Companies</h1>
-	<p>Freedom from hustle of calling multiple transporters.</p> 
+  <h2>Post Load Details</h2>
+  	<form role="form" class="form-inline">
+    <div class="form-group">
+      <label for="Source">From</label>
+      <input type="city" class="form-control" id="Source" placeholder="Source city">
+    </div>
+    <div class="form-group">
+      <label for="Destination">Destination</label>
+      <input type="city" class="form-control" id="destination" placeholder="Destination city">
+    </div>
+    </form>
+    <form role="form"  class="form-inline">
+    <div class="form-group">
+      <label for="material">Material:</label>
+      <select class="form-control" id="material">
+        <option>Construction</option>
+        <option>Fragile</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="truck">Truck type</label>
+      <select class="form-control" id="truck">
+        <option>10 axle</option>
+        <option>Containers</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div>
+    </form>
+    <form role="form" class="form-inline">
+            <div class="form-group">
+            <label>Scheduled
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span></label>
+                </div>
+            </div>
+            <!--script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script-->
+     <div class="form-group">
+      <label for="weight">Weight</label>
+      <select class="form-control" id="weight">
+        <option>5-7</option>
+        <option>7-9</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div>
+    </form>
+    <form role="form" class="form-inline">
+    <div class="form-group">
+      <label for="number">Number of trucks</label>
+      <input type="number" class="form-control" id="Source" placeholder="Number">
+    </div>
+
+     <a class="btn btn-primary btn-lg" href="#" role="button">Start posting &raquo;</a>
+
+    </form>
+	<!--p>Freedom from hustle of calling multiple transporters.</p> 
 	<p>Almost every transporter in area competes for your load.</p>
     <p>Multiple payments options including internet banking available.</p> 
     <p>Least human involvement in finalizing the deal.</p> 
-    <p>Its free!</p>
+    <p>Its free!</p-->
   
-  <p><a class="btn btn-primary btn-lg" href="#" role="button">Start posting &raquo;</a></p>
+ 
 </div>
 </div>
 

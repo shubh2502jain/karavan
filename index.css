@@ -1,5 +1,7 @@
-.jumbotron p , h1 {text-align: center;}
+.jumbotron p , h1 , form{text-align: center;}
 .jumbotron h1 {color: #517B54;}
+.jumbotron input {opacity:0.6;}
+.jumbotron form {padding-left: 15px;padding-right: 15px}
 
 /*.border-right {border-right: 1px solid black;}*/
 
